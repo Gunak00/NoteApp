@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138318248088",
+    "project_id": "projekt-79e8b",
+    "storage_bucket": "projekt-79e8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138318248088:android:09f516044c8bc72480b8ed",
+        "android_client_info": {
+          "package_name": "com.example.notatnik_v1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138318248088-hg76nk292t993690tum897jul7cu5fm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ3sxpUFJaUabzFfQ037gTiE0z_bZoWS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138318248088-hg76nk292t993690tum897jul7cu5fm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

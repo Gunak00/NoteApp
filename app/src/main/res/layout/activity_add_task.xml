@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beige_bg"
+    android:padding="16dp"
+
+    tools:context=".AddTaskActivity">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:hint="Nazwa"
+        android:textColorHint="@color/mint"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/lightMint"
+        android:textColor="@color/darkMint"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSaveTask" />
+
+    <Button
+        android:id="@+id/btSaveTask"
+        android:layout_width="143dp"
+        android:layout_height="65dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/round_btn"
+        android:text="Zapisz"
+        android:textColor="@color/lighest"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSelectTime"
+        android:layout_width="353dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="28dp"
+        android:text="ustaw godzine"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/lighest"
+        android:background="@drawable/round_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+
+    <Button
+        android:id="@+id/buttonDatePicker"
+        style="?android:spinnerStyle"
+        android:layout_width="356dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="28dp"
+        android:gravity="center"
+        android:background="@drawable/round_btn"
+        android:text="USTAW DATĘ"
+        android:textColor="@color/lighest"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSelectTime" />
+</androidx.constraintlayout.widget.ConstraintLayout>
