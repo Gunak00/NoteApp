@@ -7,6 +7,8 @@ This is a basic mobile application for creating and managing notes and tasks. Th
 * Create, edit, and delete notes.
 * Add tasks, mark them as completed, and delete them.
 
+
+## Application Screenshots
  ![Loading page](./screens/loading.jpg) | ![Create password](./screens/createPassword.jpg) | ![Logged](./screens/logged.jpg)
  |:--:|:--:|:--:|
 | *Application Loading* | *Password Creation* | *Successful Login Notification* |
